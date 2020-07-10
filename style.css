@@ -1,17 +1,26 @@
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    padding: 2rem 0rem;
-    gap: 20px;
-    width: 80%;
-    margin: auto;
-    row-gap: 5rem;
-    column-gap: 3rem;
+*{
+    box-sizing: border-box;
+    font-family: monospace;
 }
+.heading{
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+.container{
+    margin-top: 5em;
+}
+.row .form{
+    width: 50%;
 
-
-.image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+}
+.row form{
+    display: flex;
+}
+form .form-group{
+    width: 70%;
+}
+form button{
+    margin-left: 2em;
+    height: 60%;
 }
